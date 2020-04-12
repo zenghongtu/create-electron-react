@@ -24,3 +24,4 @@ my-test-library
 nala
 /templates
 *.lock
+package-lock.json

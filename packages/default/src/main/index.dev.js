@@ -19,7 +19,7 @@ require('electron').app.on('ready', () => {
   installExtension
     .default([installExtension.REACT_DEVELOPER_TOOLS])
     .then(() => {})
-    .catch(er => {
+    .catch(err => {
       console.log('Unable to install devtools: \n', err)
     })
 })
